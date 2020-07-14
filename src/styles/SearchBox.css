@@ -3,6 +3,16 @@
 }
 
 .searchbox button:hover {
-    background-color: #101D42;
+    background-color: green;
     color: #ffffff;
+}
+
+.form-control{
+    background-color: rgb(68, 184, 68);
+    margin-right: 20cm;
+}
+
+p{
+    padding-top: 10px;
+    margin-right: 20cm;
 }

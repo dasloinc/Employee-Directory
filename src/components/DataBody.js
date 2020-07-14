@@ -6,8 +6,8 @@ function DataBody({ users }) {
     const dateArray = date.split("-");
     const year = dateArray[0];
     const month = dateArray[1];
-    const dayArray = dateArray[2].split("T");
     const day = dayArray[0];
+    const dayArray = dateArray[2].split("T");
     const formattedDate = [month, day, year].join("-");
     return formattedDate;
   }
@@ -35,9 +35,6 @@ function DataBody({ users }) {
                 <a href={"mailto:" + email} target="__blank">
                   {email}
                 </a>
-              </td>
-              <td data-th="DOB" className="align-middle">
-                {formatDate(dob.date)}
               </td>
             </tr>
           );

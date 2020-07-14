@@ -15,8 +15,8 @@ function DataTable({ headings, users, handleSort }) {
               return (
                 <th
                   className="col"
-                  key={name}
                   style={{ width }}
+                  key={name}
                   onClick={() => {
                     handleSort(name.toLowerCase());
                   }}

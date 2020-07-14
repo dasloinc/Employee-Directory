@@ -7,12 +7,13 @@ function SearchBox({ handleSearchChange }) {
       <form className="form-inline">
         <input
           className="form-control"
-          type="search"
           placeholder="Search"
+          type="search"
           aria-label="Search"
           onChange={e => handleSearchChange(e)}
         />
       </form>
+      <p>Seach the employee by clicking on the search box.</p>
     </div>
   );
 }
